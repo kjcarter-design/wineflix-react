@@ -107,3 +107,11 @@ export const heroContent = {
 	description: `America's most unhinged rooster is out of retirement, and this time? He's mad
     as hell.  Experience the unapologetic flavor burst of Rex Goliath.`,
 };
+
+export const PAGE_PATHS = Object.freeze({
+  HOME: '/',
+  WHITES: '/whites',
+  REDS: '/reds',
+	BLENDS: '/blends',
+	PROFILE: '/:userId'
+})
